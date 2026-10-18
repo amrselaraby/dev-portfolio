@@ -9,7 +9,7 @@
 	let { children, className, ...props }: ButtonProps = $props();
 </script>
 
-<button class={`btn ${className}`} {...props}>{@render children()}</button>
+<button class={`btn ${className} mt-4`} {...props}>{@render children()}</button>
 
 <style>
 	.btn {
